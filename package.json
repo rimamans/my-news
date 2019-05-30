@@ -1,0 +1,33 @@
+{ 
+    "name": "heronode", 
+    "version": "1.0.0", 
+    "description": "upload csv to json and insert it into MongoDB for a single colletion", 
+    "scripts": { 
+    "start": "node ./heronade/application.js",
+    }, 
+    "dependencies": { 
+    "application": "^4.3.4", 
+    "fs": "^0.0.1-security", 
+    "mongodb": "^2.2.31" 
+    }, 
+    "devDependencies": {}, 
+    "repository": { 
+    "type": "git", 
+    "url": "git+https://github.com/rimamans/heronde.git" 
+    }, 
+    "keywords": [ 
+    "csv", 
+    "json", 
+    "mongodb", 
+    "nodejs", 
+    "collection", 
+    "import", 
+    "export" 
+    ], 
+    "author": "karthikeyan.a", 
+    "license": "ISC", 
+    "bugs": { 
+    "url": "https://github.com/rimamans/heronde/issues" 
+    }, 
+    "homepage": "https://github.com/rimamans/heronde#readme" 
+} 
